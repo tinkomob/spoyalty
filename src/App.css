@@ -1,20 +1,12 @@
+:root{
+  --main-bg-color: #282c34;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: var(--main-bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,12 +19,38 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.money_input{
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  background-color: var(--main-bg-color);
+}
+span{
+  font-weight: bold;
+}
+.time{
+  text-decoration: underline;
+  color: rgb(224, 224, 224);
+}
+table{
+  font-size: 16px;
+}
+td{
+  width: 100px;
+  padding: 15px 5px;
+}
+tr td:first-child{
+  text-align: left;
+}
+tr td:last-child, th:last-child{
+  color: rgb(255, 142, 142);
+}
+.info{
+  font-size: 12px;
+  opacity: .5;
+}
+img{
+  max-width: 25px;
 }
