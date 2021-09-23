@@ -1,5 +1,5 @@
 import spotify from './spotify.png';
-import React, { useState, useEffect, useRef  } from 'react';
+import React, { useState, useEffect  } from 'react';
 import NumberFormat from 'react-number-format';
 import './App.css';
 import Result from './components/Result';
